@@ -1,0 +1,24 @@
+ASSIGNMENT 4: FACADE PATTERN - Быстрый старт
+
+1. Распакуй всю папку Assignment4_Facade_Media.
+2. IntelliJ IDEA -> Open -> выбери распакованную папку.
+3. Убедись, что выбран JDK 17 (File -> Project Structure -> Project SDK).
+4. Правой кнопкой по src/Main.java -> Run 'Main.main()'.
+   Ожидается 3 SUCCESS и 2 ERROR (ошибки запланированы в демо).
+5. Тесты в терминале внутри проекта:
+   javac --release 17 -encoding UTF-8 -d out "@sources.txt"
+   java -cp out Main --test
+   Результат SUMMARY: 6/6 PASS.
+6. В GitHub создай ПУСТОЙ репозиторий assignment4-facade (не добавляй README в GitHub).
+7. Скопируй команды git из ответа ChatGPT.
+8. Перед дедлайном отправь в Moodle:
+   - https://github.com/EROHA07/assignment4-facade (если это твой репозиторий)
+   - файл report.pdf
+
+ПРИМЕЧАНИЕ: медиафайлы НЕ создаются на диске.
+Программа моделирует шаги конвертации на целочисленных аудиосэмплах.
+
+На защите объясни:
+Main -> MediaConversionFacade.convert() -> MetadataReader -> CodecFactory ->
+BitrateReader -> AudioMixer -> AudioEncoder -> String result.
+Facade скрывает порядок этих вызовов от клиента.

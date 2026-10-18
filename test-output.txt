@@ -1,0 +1,7 @@
+T1 WAV to MP3 | PASS | SUCCESS | lecture.wav -> lecture.mp3 | bitrate=192 kbps | simulated samples=[20, 28, 44, 52]
+T2 MP3 to AAC | PASS | SUCCESS | music.mp3 -> music.aac | bitrate=160 kbps | simulated samples=[18, 27, 42, 51]
+T3 AAC to WAV | PASS | SUCCESS | voice.aac -> voice.wav | bitrate=1411 kbps | simulated samples=[19, 27, 43, 51]
+T4 bad input | PASS | ERROR | Unsupported input format: txt
+T5 bad output | PASS | ERROR | Unsupported target format: avi
+T6 empty name | PASS | ERROR | File name cannot be empty
+SUMMARY: 6/6 PASS

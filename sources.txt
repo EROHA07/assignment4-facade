@@ -1,0 +1,9 @@
+src/AudioEncoder.java
+src/AudioMixer.java
+src/BitrateReader.java
+src/CodecFactory.java
+src/CodecProfile.java
+src/Main.java
+src/MediaConversionFacade.java
+src/MediaData.java
+src/MetadataReader.java
